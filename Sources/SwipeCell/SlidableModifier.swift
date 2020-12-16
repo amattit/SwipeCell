@@ -106,7 +106,7 @@ public struct SlidableModifier: ViewModifier, Animatable {
                         .resizable()
                         .scaledToFit()
                         .foregroundColor(slot.style.imageColor)
-                        .frame(width: slot.style.slotWidth * 0.4)
+                        .frame(width: slot.style.slotWidth * 0.8)
                     
                     slot.title()
                     
